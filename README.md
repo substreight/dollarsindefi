@@ -1,5 +1,5 @@
 # dollarsindefi
-A simple, pretty tracker for the fiat value bonded in decentralized finance (DeFi)
+A simple tracker for the fiat value bonded in decentralized finance (DeFi)
 <br>
 https://dollarsindefi.com/
 <br>
