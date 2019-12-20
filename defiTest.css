@@ -1,0 +1,33 @@
+html {
+  display: flex;
+  /*background-image: linear-gradient(-35deg, #FFB6C1, #99ccff);*/
+  background: black;
+  justify-content: center;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+h1 {
+  font-size: 8vw;
+  font-family: sans-serif;
+  font-weight: lighter;
+  background-image: linear-gradient(-35deg, #fed8b1, #FFB6C1, #99ccff, #90ee90);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 16s infinite linear;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to{
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
